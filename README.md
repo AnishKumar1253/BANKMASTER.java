@@ -4,11 +4,17 @@
 # BANKMASTER.java
 
 
+
 import java.util.Scanner;
+
+
 public class BankMaster 
 {
+	
+	
 	public static void main(String[] args) 
   {
+		
 		Scanner input = new Scanner(System.in);
 		int sentinal = 0;
 		int size = 0;
@@ -16,6 +22,7 @@ public class BankMaster
 		String[] accountNames = new String[250];
 		while(sentinal != -1)
     {
+			
 			System.out.println("Bank Admin Menu");
 			System.out.println("Please Enter a Menu Option");
 			System.out.println("(1): Add Customer to Bank");
